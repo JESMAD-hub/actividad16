@@ -12,7 +12,7 @@ from sklearn.svm import LinearSVC
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 # Word2Vec
-from gensim.models import Word2Vec
+# from gensim.models import Word2Vec
 
 
 # =====================================================

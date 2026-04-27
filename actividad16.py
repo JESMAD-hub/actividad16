@@ -178,7 +178,7 @@ def vectorizar_bow(textos):
 def vectorizar_word2vec(textos):
     textos_tokenizados = [texto.split() for texto in textos]
 
-    modelo_w2v = Word2Vec(
+   # modelo_w2v = Word2Vec(
         sentences=textos_tokenizados,
         vector_size=50,
         window=3,

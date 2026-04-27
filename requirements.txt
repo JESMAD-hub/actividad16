@@ -1,4 +1,7 @@
 streamlit
+gensim==4.3.2
+numpy
+scipy
 pandas
 scikit-learn
 nltk
